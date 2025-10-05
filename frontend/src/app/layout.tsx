@@ -1,4 +1,3 @@
-// frontend/src/app/layout.tsx
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -7,8 +6,8 @@ import { API_URL } from "@/utils/env";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Initial System",
-  description: "A modern authentication system built with Next.js and FastAPI",
+  title: "MiniTimer",
+  description: "A simple and efficient timer application for quick timing tasks",
 };
 
 export default function RootLayout({
